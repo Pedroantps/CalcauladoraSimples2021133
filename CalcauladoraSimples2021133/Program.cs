@@ -22,6 +22,8 @@ switch (opcao)
         break;
     case 2:
         //Código para subtrair
+        double resultadoSubtracao = new CalculosSimples().Subtrair(numero1, numero2);
+        Console.WriteLine($"{numero1} - {numero2} = {resultadoSubtracao}");
         break;
     case 3:
         //Código para dividir
